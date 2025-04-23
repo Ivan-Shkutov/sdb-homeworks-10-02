@@ -59,20 +59,20 @@
 *Приведите скриншот systemctl status memcached, где будет видно, что memcached запущен.*
 
 ---
-#### sudo apt update
+### sudo apt update
 
-#### sudo apt install memcached
+### sudo apt install memcached
 
-#### sudo systemctl start memcached
+### sudo systemctl start memcached
 
-#### sudo systemctl enable memcached
+### sudo systemctl enable memcached
 
-#### sudo systemctl status memcached
+### sudo systemctl status memcached
 
 
 Проверка, что memcached работает корректно:
 
-#### telnet localhost 11211
+### telnet localhost 11211
 
 stats - увидим статистику memcached, включая количество соединений, количество хранимых данных и т.д.
 
@@ -172,6 +172,53 @@ END
 ### systemctl status redis
 
 ![5](https://github.com/Ivan-Shkutov/sdb-homeworks-10-02/blob/main/jpg/5.jpg)
+
+### Подключение к Redis:
+
+redis-cli
+
+### Запись ключей и значений:
+
+> set k1 orange
+
+OK
+
+> set k2 red
+
+OK
+
+> set k3 blue
+
+OK
+
+> set k4 green
+
+OK
+
+> set k5 grey
+
+OK
+
+### Вывод всех записанных ключей:
+
+keys *
+
+### Вывод сразу всех значений ключей, котрые мы записали и указали:
+
+mget k1 k2 k3 k4 k5
+
+### Или вывод по одному: 
+
+get k1, get k2, get k3, get k4, get k5
+
+### Также можно использовать команду SCAN:
+
+scan 0 match * count 100
+
+
+![6](https://github.com/Ivan-Shkutov/sdb-homeworks-10-02/blob/main/jpg/6.jpg)
+
+![7](https://github.com/Ivan-Shkutov/sdb-homeworks-10-02/blob/main/jpg/7.jpg)
 
 
 ---
