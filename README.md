@@ -59,7 +59,26 @@
 *Приведите скриншот systemctl status memcached, где будет видно, что memcached запущен.*
 
 ---
+sudo apt update
 
+sudo apt install memcached
+
+sudo systemctl start memcached
+
+sudo systemctl enable memcached
+
+sudo systemctl status memcached
+
+
+Проверка, что memcached корректно:
+
+telnet localhost 11211 – увидим приглашение telnet
+
+stats - увидим статистику memcached, включая количество соединений, количество хранимых данных и т.д.
+
+![items].(https://github.com/Ivan-Shkutov/sdb-homeworks-10-02/blob/main/jpg/1.jpg).
+
+![items].(https://github.com/Ivan-Shkutov/sdb-homeworks-10-02/blob/main/jpg/2.jpg).
 
 ---
 ### Задание 3. Удаление по TTL в Memcached
