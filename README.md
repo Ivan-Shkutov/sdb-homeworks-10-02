@@ -59,20 +59,20 @@
 *Приведите скриншот systemctl status memcached, где будет видно, что memcached запущен.*
 
 ---
-##### sudo apt update
+### sudo apt update
 
-##### sudo apt install memcached
+### sudo apt install memcached
 
-##### sudo systemctl start memcached
+### sudo systemctl start memcached
 
-##### sudo systemctl enable memcached
+### sudo systemctl enable memcached
 
-##### sudo systemctl status memcached
+### sudo systemctl status memcached
 
 
 Проверка, что memcached работает корректно:
 
-###### telnet localhost 11211 – увидим приглашение telnet
+#### telnet localhost 11211
 
 stats - увидим статистику memcached, включая количество соединений, количество хранимых данных и т.д.
 
