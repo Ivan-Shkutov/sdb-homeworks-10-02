@@ -150,9 +150,7 @@ END
 ![3](https://github.com/Ivan-Shkutov/sdb-homeworks-10-02/blob/main/jpg/3.jpg)
 
 
-### sudo apt update && sudo apt install –y redis
 
-![4](https://github.com/Ivan-Shkutov/sdb-homeworks-10-02/blob/main/jpg/4.jpg)
 
 ---
 
@@ -164,11 +162,17 @@ END
 
 *Через redis-cli достаньте все записанные ключи и значения из базы, приведите скриншот этой операции.*
 
-
-## Дополнительные задания (со звёздочкой*)
-Эти задания дополнительные, то есть не обязательные к выполнению, и никак не повлияют на получение вами зачёта по этому домашнему заданию. Вы можете их выполнить, если хотите глубже разобраться в материале.
-
 ---
+
+### sudo apt update && sudo apt install –y redis
+
+![4](https://github.com/Ivan-Shkutov/sdb-homeworks-10-02/blob/main/jpg/4.jpg)
+
+
+### systemctl status redis
+
+![5](https://github.com/Ivan-Shkutov/sdb-homeworks-10-02/blob/main/jpg/5.jpg)
+
 
 ---
 
