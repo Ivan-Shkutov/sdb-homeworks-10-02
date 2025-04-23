@@ -76,9 +76,9 @@ telnet localhost 11211 – увидим приглашение telnet
 
 stats - увидим статистику memcached, включая количество соединений, количество хранимых данных и т.д.
 
-![items].(https://github.com/Ivan-Shkutov/sdb-homeworks-10-02/blob/main/jpg/1.jpg).
+![1].(https://github.com/Ivan-Shkutov/sdb-homeworks-10-02/blob/main/jpg/1.jpg).
 
-![items].(https://github.com/Ivan-Shkutov/sdb-homeworks-10-02/blob/main/jpg/2.jpg).
+![2].(https://github.com/Ivan-Shkutov/sdb-homeworks-10-02/blob/main/jpg/2.jpg).
 
 ---
 ### Задание 3. Удаление по TTL в Memcached
