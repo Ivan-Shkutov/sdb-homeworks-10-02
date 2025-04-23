@@ -144,7 +144,15 @@ Test1
 END
 
 
-Ключи с TTL=5 были удалены и memcached вернет END, указывая, что ключ не найден. А ключ k1, у которого TTL=100покажет нам записанное значение.
+Ключи с TTL=5 были удалены и memcached вернет END, указывая, что ключ не найден. А ключ k1, у которого TTL=100 покажет нам записанное значение.
+
+
+![3](https://github.com/Ivan-Shkutov/sdb-homeworks-10-02/blob/main/jpg/3.jpg)
+
+
+### sudo apt update && sudo apt install –y redis
+
+![4](https://github.com/Ivan-Shkutov/sdb-homeworks-10-02/blob/main/jpg/4.jpg)
 
 ---
 
