@@ -179,23 +179,23 @@ redis-cli
 
 ### Запись ключей и значений:
 
-> set k1 orange
+set k1 orange
 
 OK
 
-> set k2 red
+set k2 red
 
 OK
 
-> set k3 blue
+set k3 blue
 
 OK
 
-> set k4 green
+set k4 green
 
 OK
 
-> set k5 grey
+set k5 grey
 
 OK
 
